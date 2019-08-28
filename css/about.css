@@ -13,5 +13,6 @@ About me
 }
 
 .about__img {
-  max-width: 650px;
+  max-width: 400px;
+  border-radius: 50%;
 }

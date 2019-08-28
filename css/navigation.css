@@ -66,7 +66,8 @@ Side Nav
 
 .side-nav__logo {
   position: absolute;
-  left: 58px;
+  top: 10px;
+  left: 26px;
   font-size: 1.5em;
   color: #2A2A2E;
   background-color: #92B8D1;
@@ -77,7 +78,7 @@ Side Nav
 /* The sidebar menu */
 .site-menu__side-nav {
   height: 100%; 
-  width: 160px;
+  width: 100px;
   text-align: center;
   position: fixed;
   z-index: 1; 
@@ -86,6 +87,8 @@ Side Nav
   background-color: #2A2A2E;
   overflow-x: hidden; 
   padding-top: 1em;
+  -webkit-transition: opacity .25s ease-in 0s,visibility .25s ease-in;
+  transition: opacity .25s ease-in 0s,visibility .25s ease-in;
 }
 
 /* The navigation menu links */
@@ -117,7 +120,7 @@ Side Nav
   bottom: 0; 
   left: 0;
   background-color: #2D94F4;
-  width: 160px;
+  width: 100px;
 }
 
 .site-menu__side-nav .arrow a:hover {
