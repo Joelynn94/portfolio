@@ -1,0 +1,14 @@
+/*================ 
+Contact 
+================*/
+
+.contact {
+  background-color: #F8FAFA;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.contact__heading {
+  font-size: 3.5em;
+  color: rgba(117, 121, 149, 0.5)
+}

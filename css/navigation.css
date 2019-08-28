@@ -1,0 +1,166 @@
+
+.site-menu {
+  background-color: #2A2A2E;
+}
+
+/*================ 
+Mobile Nav
+================*/
+.site-menu__mobile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 70px;
+}
+  
+.align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.button__mobile {
+  margin-right: 1em;
+  background-color: #2D94F4;
+  padding: 10px 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.fa-bars,
+.fa-times {
+  padding: 7px 7px;
+}
+
+.button__mobile:hover {
+  opacity: 1;
+}
+
+.mobile__icon {
+  margin-right: 1em;
+  background-color: #2D94F4;
+  padding: 7px;
+  margin: 1px;
+  min-width: 2em;
+  font-size: 1.5em;
+}
+
+.site-logo__mobile {
+  margin-left: 1em;
+  font-size: 1.5em;
+  color: #2A2A2E;
+  background-color: #92B8D1;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+/*================ 
+Side Nav
+================*/
+.hide {
+  display: none;
+}
+
+.side-nav__logo {
+  position: absolute;
+  left: 58px;
+  font-size: 1.5em;
+  color: #2A2A2E;
+  background-color: #92B8D1;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+
+/* The sidebar menu */
+.site-menu__side-nav {
+  height: 100%; 
+  width: 160px;
+  text-align: center;
+  position: fixed;
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #2A2A2E;
+  overflow-x: hidden; 
+  padding-top: 1em;
+}
+
+/* The navigation menu links */
+.site-menu__side-nav a {
+  font-size: 1.5em;
+  padding: 0.5em;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-menu__side-nav a:hover {
+  color: #2D94F4;
+}
+
+.side-nav__menu {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.side-nav__social {
+  padding-bottom: 8em;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 0; 
+  left: 0;
+  background-color: #2D94F4;
+  width: 160px;
+}
+
+.site-menu__side-nav .arrow a:hover {
+  color: #2A2A2E;
+}
+
+/* .push-left {
+  margin-left: 160px; 
+} */
+
+
+/*================ 
+Sticky nav
+================*/
+.site-menu__bottom {
+  background-color: #2A2A2E;
+  height: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  color: #92B8D1;
+  padding: 7px;
+  margin: 1px;
+  min-width: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  border: 1px solid #92B8D1;
+}
+
+.icon:hover {
+  color: #2D94F4;
+  border: 1px solid #2D94F4;
+}
+
+.fixed-nav #secondaryNav {
+  top: 0;
+  width: 100%;
+  transition: all 0.5s;
+  z-index: 1;
+  position: fixed;
+  box-shadow: 0 5px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,17 @@
+/*================ 
+About me
+================*/
+.about {
+  background-color: #F8FAFA;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.about__heading {
+  font-size: 3.5em;
+  color: rgba(117, 121, 149, 0.5)
+}
+
+.about__img {
+  max-width: 650px;
+}

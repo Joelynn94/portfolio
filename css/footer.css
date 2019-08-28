@@ -1,0 +1,39 @@
+/*================ 
+Footer
+================*/
+
+footer {
+  background-color: #2A2A2E;
+  color: white;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.footer__p {
+  font-size: 0.9em;
+}
+
+.social {
+  color: #92B8D1;
+  padding: 7px;
+  margin: 1px;
+  min-width: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  border-left: 1px solid #92B8D1;
+}
+
+.social:hover {
+  color: #2D94F4;
+  border-left: 1px solid #2D94F4;
+}
+
+@media (min-width: 1100px) {
+  .flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+  }
+}
+
