@@ -9,7 +9,7 @@ footer {
   padding-bottom: 4em;
 }
 
-.footer__p {
+.footer__copy {
   font-size: 0.9em;
 }
 
@@ -28,12 +28,4 @@ footer {
   border-left: 1px solid #2D94F4;
 }
 
-@media (min-width: 1100px) {
-  .flex {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-content: center;
-  }
-}
 

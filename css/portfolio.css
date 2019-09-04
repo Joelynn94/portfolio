@@ -44,29 +44,31 @@ Portfolio
 }
 
 .card__buttons {
-  display: flex;
+  margin-top: -3px;
 }
   
-.button {
+.btn {
   color: white;
   padding: 20px 20px;
   border: none;
   cursor: pointer;
   opacity: 0.8;
+  border-radius: 5px;
 }
 
-.button__width-50 {
-  width: 50%;
+.btn--49 {
+  width: 49.5%;
+  border-radius: 0;
 }
 
-.button:hover {
+.btn:hover {
   opacity: 1;
 }
 
-.button__primary {
+.btn--primary {
   background-color: #2D94F4;
 }
 
-.button__secondary {
+.btn--secondary {
   background-color: #737894;
 }

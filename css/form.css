@@ -37,6 +37,7 @@ textarea {
   color: white;
   min-width: 4em;
   text-align: center;
+  border-radius: 5px;
 }
 
 /* Style the input fields */

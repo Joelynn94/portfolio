@@ -6,193 +6,223 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/441a588260.js"></script>
     <link rel="shortcut icon" type ="image/png" href="img/Component 2 – 1.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/portfolio.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/navigation.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Joseph Lynn</title>
+    <title>Lynn Web Solutions</title>
 </head>
 <body>
+
+  <!-- Mobile Top Bar -->
+  <nav class="mobile">
+
+    <div class="mobile__logo">
+      <a href="" class="logo">Lynn Web Solutions</a>
+    </div>
+
     
-    <header class="site-header">
+    <div class="mobile__btn">
+      <div class="mobile__btn--line"></div>
+      <div class="mobile__btn--line"></div>
+      <div class="mobile__btn--line"></div>
+    </div>
 
-        <div class="flex site-menu site-menu__mobile">
-          <div class="align">
-            <a class="site-logo__mobile hide-bg" href="#">JL</a>
+  </nav>
+  <!-- End Mobile Top Bar -->
 
-            <button class="button__mobile" id="button-nav">
-                <i class="fal fa-bars mobile__icon open"></i>
-                <i class="fal fa-times mobile__icon close hide"></i>
-            </button>
-          </div>
-        </div>
-
-        <nav id="side-nav" class="site-menu site-menu__side-nav hide">
-
-          <a class="side-nav__logo" href="">JL</a>
-
-          <div class="side-nav__menu">
-            <a class="icon n-border" href=""><i class="fal fa-home"></i>
-                <span class="tooltip"  data-message="Home"></span>
-            </a>
-            <a class="icon n-border" href=""><i class="fal fa-user"></i></a>
-            <a class="icon n-border" href=""><i class="fal fa-briefcase"></i></a>
-            <a class="icon n-border" href=""><i class="fal fa-envelope"></i></a>
-          </div>
-
-          <div class="side-nav__social">
-            <a class="social n-border" href=""><i class="fab fa-linkedin-in"></i></a>
-            <a class="social n-border" href=""><i class="fab fa-facebook-f"></i></a>
-            <a class="social n-border" href=""><i class="fab fa-github"></i></a>
-            <a class="social n-border" href=""><i class="fab fa-twitter"></i></a>
-            <a class="social n-border" href=""><i class="fab fa-instagram"></i></a>
-          </div>
-
-          <a class="arrow" href=""><i class="fal fa-arrow-down"></i></a>
-
-        </nav>
-
-    </header>
-
-    <main class="push-left">
-      <section class="intro">
-        <div class="container center">
-          <h2 class="lg-heading">Joseph Lynn</h2>
-          <h3 class="md-heading">I'm an independent web developer that creates effective websites for your business.</h3>
-          <div class="intro__buttons">
-            <button class="button button__primary button__max-width"><a href="">
-              <i class="fal fa-handshake"></i>
-              <span class="card__span">Hire Me</span>
-            </a></button>
-            <button class="button button__secondary button__max-width"><a href="">
-              <i class="fal fa-search"></i>
-              <span class="card__span">See Project</span>
-            </a></button>
-          </div>
-        </div>
-      </section>
-
-      <nav id="secondaryNav" class="site-menu site-menu__bottom">
-        <a href=""><i class="fal fa-home icon"></i></a>
-        <a href=""><i class="fal fa-user icon"></i></a>
-        <a href=""><i class="fal fa-briefcase icon"></i></a>
-        <a href=""><i class="fal fa-envelope icon"></i></a>
-      </nav>
-
-      <section class="about">
-        <div class="container">
-          <h1 class="about__heading">ABOUT ME.</h1>
-          <img class ="about__img" src="./img/me.jpg" alt="">
-          <p>I specialize in front-end development, and I focus on simplicity, responsive design, writing modular code and SEO-friendly code.</p>
-          <p>I help business get their content and products online to increase customers and sales. </p>
-        </div>
-      </section>
-
-      <section class="portfolio">
-        <div class="container">
-          <h1 class="portfolio__heading">PORTFOLIO.</h1>
-
-          <div class="card">
-              <div class="card__media">
-                <img class="card__img" src="img/digital-clock_app.png" alt="">
-              </div>
-              <div class="card__buttons">
-                <button class="button button__primary button__width-50"><a href="">
-                    <i class="fal fa-search"></i>
-                    <span class="card__span">View Project</span>
-                </a></button>
-                <button class="button button__secondary button__width-50"><a href=""></a>
-                    <i class="fab fa-github"></i>
-                    <span class="card__span">View Code</span>
-                </a></button>
-              </div>
-          </div>
-
-          <div class="card">
-            <div class="card__media">
-              <img class="card__img" src="img/digital-clock_app.png" alt="">
-            </div>
-            <div class="card__buttons">
-              <button class="button button__primary button__width-50"><a href="">
-                <i class="fal fa-search"></i>
-                <span class="card__span">View Project</span>
-              </a></button>
-              <button class="button button__secondary button__width-50"><a href=""></a>
-                <i class="fab fa-github"></i>
-                <span class="card__span">View Code</span>
-              </a></button>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card__media">
-              <img class="card__img"src="img/digital-clock_app.png" alt="">
-            </div>
-            <div class="card__buttons">
-              <button class="button button__primary button__width-50"><a href="">
-                <i class="fal fa-search"></i>
-                <span class="card__span">View Project</span>
-              </a></button>
-              <button class="button button__secondary button__width-50"><a href=""></a>
-                <i class="fab fa-github"></i>
-                <span class="card__span">View Code</span>
-              </a></button>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="contact">
-        <div class="container">
-          <h1 class="contact__heading">CONTACT ME.</h1>
-
-          <form action="" method="post">
-            <fieldset>
-              <ul>
-                <div class="contact__container">
-                  <label for="name"><i class="fal fa-user contact__icon"></i></label>
-                  <input class="contact__input" type="text" placeholder="e.g. Alex Smith" id="name" name="user_name">
-                </div>
-                <div class="contact__container">
-                  <label for="email"><i class="fal fa-envelope contact__icon"></i></label>
-                  <input class="contact__input" type="text" placeholder="e.g. alexsmith@gmail.com" id="email" name="user_email">
-                </div>
-                <div class="contact__container">
-                  <label for="message"><i class="fal fa-comment-lines contact__icon"></i></label>
-                  <textarea class="contact__input" type="text" placeholder="Type your message here..." id="message" name="user_message"></textarea>
-                </div>
-              </ul>
-
-              <button class="button contact__button" type="submit">Submit</button>
-            </fieldset>
-          </form>
-        </div>
-      </section>
-
-    </main>
-
-
-    <footer>
-      <div class="container">
-        <div class="flex">
-          <nav class="site-menu site-menu__footer">
-            <a href=""><i class="fab fa-linkedin-in social"></i></a>
-            <a href=""><i class="fab fa-facebook-f social"></i></a>
-            <a href=""><i class="fab fa-github social"></i></a>
-            <a href=""><i class="fab fa-twitter social"></i></a>
-            <a href=""><i class="fab fa-instagram social"></i></a>
-          </nav>
-
-          <p class="footer__p">Designed and Developed by Joseph Lynn . All Rights Reserved.</p>
-        </div>
+  <!-- Offsite Navigation -->
+  <nav class="menu-offsite">
+    <div class="menu-offsite__branding">
+      <div class="menu-offsite__image">
+        <img src="./img/logo.png" alt="Logo">
       </div>
-    </footer>
+    </div>
+    <ul class="menu-offsite__nav">
+      <li class="menu-offsite__item current">
+        <a href="index.html" class="menu-offiste__link">
+        Home
+        </a>
+      </li>
+      <li class="menu-offsite__item">
+        <a href="#about" class="menu-offiste__link">
+        About Me
+        </a>
+      </li>
+      <li class="menu-offsite__item">
+        <a href="#portfolio" class="menu-offiste__link">
+        Protfolio
+        </a>
+      </li>
+      <li class="menu-offsite__item">
+        <a href="#contact" class="menu-offiste__link">
+        contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- End Offsite Navigation -->
+
+  <!-- Hero Section -->
+  <header>
+    <section class="hero">
+      <div class="container hero__center">
+
+        <h2 class="lg-heading">Hey, my name is Joe</h2>
+        <h3 class="md-heading">I'm an independent web developer that creates effective websites for your business.</h3>
+
+        <div class="hero__buttons">
+          <button class="btn btn--primary">
+            <a href="">
+              <i class="fal fa-handshake"></i>
+              <span>Hire Me</span>
+            </a>
+          </button>
+
+          <button class="btn btn--secondary">
+            <a href="">
+              <i class="fal fa-search"></i>
+              <span>See Projects</span>
+            </a>
+          </button>
+        </div>
+
+      </div>
+    </section>
+  </header>
+  <!-- End Hero Section -->
+
+  <!-- Sticky Navigation (Mobile) -->
+  <nav class="secondary-nav" id="sticky-nav">
+    <a href=""><i class="fal fa-home icon"></i></a>
+    <a href=""><i class="fal fa-user icon"></i></a>
+    <a href=""><i class="fal fa-briefcase icon"></i></a>
+    <a href=""><i class="fal fa-envelope icon"></i></a>
+  </nav>
+  <!-- End Sticky Navigation (Mobile) -->
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h1 class="about__heading">ABOUT ME.</h1>
+        <img class ="about__img" src="./img/me.jpg" alt="">
+        <p>I specialize in front-end development for small businesses, my focus is on simplicity, responsive design, SEO-friendly code and getting results for your business.</p>
+        <p>I help business get their content and products online to increase customers and sales. </p>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h1 class="portfolio__heading">PORTFOLIO.</h1>
+
+        <!-- Card -->
+        <div class="card">
+          <img class="card__img" src="img/digital-clock_app.png" alt="">
+          <div class="card__buttons">
+            <button class="btn btn--primary btn--49"><a href="">
+              <i class="fal fa-search"></i>
+              <span>View Project</span>
+            </a></button>
+            <button class="btn btn--secondary btn--49"><a href=""></a>
+              <i class="fab fa-github"></i>
+              <span>View Code</span>
+            </a></button>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="card">
+          <img class="card__img" src="img/digital-clock_app.png" alt="">
+          <div class="card__buttons">
+            <button class="btn btn--primary btn--49"><a href="">
+              <i class="fal fa-search"></i>
+              <span>View Project</span>
+            </a></button>
+            <button class="btn btn--secondary btn--49"><a href=""></a>
+              <i class="fab fa-github"></i>
+              <span class="card__span">View Code</span>
+            </a></button>
+          </div>
+        </div>
+
+        <!-- Card -->
+        <div class="card">
+          <img class="card__img"src="img/digital-clock_app.png" alt="">
+          <div class="card__buttons">
+            <button class="btn btn--primary btn--49"><a href="">
+              <i class="fal fa-search"></i>
+              <span>View Project</span>
+            </a></button>
+            <button class="btn btn--secondary btn--49"><a href=""></a>
+              <i class="fab fa-github"></i>
+              <span>View Code</span>
+            </a></button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1 class="contact__heading">CONTACT ME.</h1>
+
+        <form action="" method="post">
+          <fieldset>
+            <ul>
+              <div class="contact__container">
+                <label for="name"><i class="fal fa-user contact__icon"></i></label>
+                <input class="contact__input" type="text" placeholder="e.g. Alex Smith" id="name" name="user_name">
+              </div>
+              <div class="contact__container">
+                <label for="email"><i class="fal fa-envelope contact__icon"></i></label>
+                <input class="contact__input" type="text" placeholder="e.g. alexsmith@gmail.com" id="email" name="user_email">
+              </div>
+              <div class="contact__container">
+                <label for="message"><i class="fal fa-comment-lines contact__icon"></i></label>
+                <textarea class="contact__input" type="text" placeholder="Type your message here..." id="message" name="user_message"></textarea>
+              </div>
+            </ul>
+
+            <button class="btn contact__button" type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main>
+  <!-- End Main Content -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__social">
+        <a href=""><i class="fab fa-linkedin-in social"></i></a>
+        <a href=""><i class="fab fa-facebook-f social"></i></a>
+        <a href=""><i class="fab fa-github social"></i></a>
+        <a href=""><i class="fab fa-twitter social"></i></a>
+        <a href=""><i class="fab fa-instagram social"></i></a>
+
+        <p class="footer__copy">Designed and Developed by Joseph Lynn . All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
 
     <script src="./js/app.js"></script>
     <script src="./js/tooltip.js"></script>

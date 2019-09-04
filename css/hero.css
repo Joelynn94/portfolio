@@ -1,19 +1,19 @@
 /*================ 
-Intro
+Hero
 ================*/
-.intro {
+.hero {
   background-color: #F8FAFA;
   background-image: url("../img/artificial-intelligence-blur-close-up-546819.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 75vh;
+  height: 60vh;
   color:white;
   position: relative;
   z-index: 0;
 }
 
-.intro:after {
+.hero:after {
   content: '';
   position: absolute;
   top: 0;
@@ -24,14 +24,13 @@ Intro
   background: rgba(58, 57, 58, 0.8); 
 }
 
-.intro__buttons {
+.hero__buttons {
   display: flex;
   justify-content: space-around;
   margin-top: 5em;
+  border-radius: 5px;
 }
 
-.button__max-width {
-  width: 48%;
-  border-radius: 5px;
-  max-width: 400px;
+.hero__center {
+  padding-top: 8vh;
 }
