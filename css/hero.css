@@ -7,7 +7,7 @@ Hero
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 77vh;
   color:white;
   position: relative;
   z-index: 0;
@@ -27,7 +27,7 @@ Hero
 .hero__buttons {
   display: flex;
   justify-content: space-around;
-  margin-top: 5em;
+  margin-top: 4em;
   border-radius: 5px;
 }
 
