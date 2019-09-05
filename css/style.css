@@ -33,9 +33,13 @@ p {
   font-weight: 300;
 }
 
+h2{
+  font-weight: 400;
+}
+
 .lg-heading {
   font-size: 2.25em;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .md-heading {

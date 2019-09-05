@@ -40,3 +40,60 @@ Hero
 .hero__center {
   padding-top: 8vh;
 }
+
+.hero__skills-box {
+  background-color: #92B8D1;
+  border-radius: 5px;
+  margin: 30px 0;
+  text-align: center;
+  width: 25em;
+  height: 120px;
+  line-height: 120px;
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.1);
+  -moz-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.1);
+  box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.1);
+}
+
+.hero__right{
+  display: none;
+}
+
+.large-rec{
+  display: none;
+}
+
+
+@media screen and (min-width: 768px){
+  .hero{
+    display: flex;
+  }
+
+  .hero__center {
+    padding-top: 0;
+  }
+  
+  .hero__left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero__right{
+    max-width: 30em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .large-rec{
+    background-color: var(--main-blue);
+    height: 150px;
+    width: 620px;
+    position: absolute;
+    top: -40px;
+    left: -80px;
+    z-index: 1;
+  }
+}
