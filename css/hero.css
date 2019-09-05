@@ -26,9 +26,15 @@ Hero
 
 .hero__buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 4em;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 350px) {
+  .hero__buttons {
+    margin-top: 2em;
+  }
 }
 
 .hero__center {

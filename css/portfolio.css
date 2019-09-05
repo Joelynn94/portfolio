@@ -45,30 +45,7 @@ Portfolio
 
 .card__buttons {
   margin-top: -3px;
+  display: flex;
+  justify-content: space-between;
 }
   
-.btn {
-  color: white;
-  padding: 20px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-  border-radius: 5px;
-}
-
-.btn--49 {
-  width: 49.5%;
-  border-radius: 0;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.btn--primary {
-  background-color: #2D94F4;
-}
-
-.btn--secondary {
-  background-color: #737894;
-}
