@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+::selection  {
+    background-color: #92B8D1;
+    color: #fff;
+}
+
 html, 
 body {
     margin: 0;
@@ -84,4 +89,11 @@ h2{
 
 .btn--100:hover {
   opacity: 1;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
