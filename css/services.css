@@ -20,7 +20,12 @@
   max-width: 30em;
 }
 
-.card__content{
+.services__card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  border-top: 10px solid #92B8D1;
+}
+
+.card__content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
