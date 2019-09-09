@@ -6,15 +6,8 @@ Hero
   color:white;
 }
 
-.hero:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  background: rgba(58, 57, 58, 0.8); 
+.hero__img {
+  border-radius: 10px;
 }
 
 .hero__buttons {

@@ -146,6 +146,10 @@ Offsite Navigation
   transition-delay: 0.4s; 
 }
 
+.menu-offsite__item:nth-child(5) {
+  transition-delay: 0.5s; 
+}
+
 .menu-offiste__link {
   display: inline-block;
   position: relative;

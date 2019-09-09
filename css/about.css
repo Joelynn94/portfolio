@@ -12,6 +12,12 @@ About me
   color: rgba(117, 121, 149, 0.5)
 }
 
+.about__info-content {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
 .about-skills{
   display: flex;
 }
