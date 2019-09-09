@@ -24,11 +24,10 @@ About me
   max-width: 30em;
   height: 6em;
   line-height: 6em;
-  -webkit-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.1);
-  -moz-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.1);
-  box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.1);
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.3);
+  -moz-box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.3);
+  box-shadow: 0px 5px 20px 0px rgba(75, 79, 124, 0.3);
 }
-
 
 .about__skills {
   justify-content: center;
